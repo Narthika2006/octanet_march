@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Welcome to Delicious Eats!</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      background-color:black;
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+    }
+    .container {
+      max-width: 800px;
+      margin: 20px auto;
+      padding: 0 20px;
+    }
+    h2 {
+      color:black;
+    }
+    p {
+      margin-bottom: 20px;
+    }
+    ul {
+      list-style-type: none;
+      padding: 0;
+    }
+    li {
+      margin-bottom: 10px;
+    }
+    footer {
+      background-color: black;
+      color: #fff;
+      text-align: center;
+      padding: 20px;
+      position: fixed;
+      bottom: 0;
+      width: 100%;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Welcome to Delicious Eats!</h1>
+  </header>
+  <div class="container">
+    <h2>About Us</h2>
+    <p>At Delicious Eats, we are passionate about providing you with the most delicious and nutritious food options. Our team is dedicated to sourcing the finest ingredients and crafting mouthwatering dishes that satisfy your cravings.</p>
+    
+    <h2>Our Products</h2>
+    <ul>
+      <li>Deluxe Burger: Juicy beef patty, melted cheese, fresh lettuce, and our special sauce, all served on a toasted brioche bun.</li>
+      <li>Gourmet Pizza: Hand-tossed crust topped with savory marinara sauce, mozzarella cheese, and your choice of premium toppings.</li>
+      <li>Healthy Salad Bowl: A colorful array of fresh greens, crunchy vegetables, protein-packed chickpeas, and creamy avocado, drizzled with zesty vinaigrette.</li>
+    </ul>
+    
+    <h2>Why Choose Us</h2>
+    <ul>
+      <li>Fresh Ingredients: We use only the freshest and highest quality ingredients in our dishes.</li>
+      <li>Variety: From hearty burgers to light salads, we offer a diverse menu to satisfy every palate.</li>
+      <li>Convenience: Order online or visit one of our locations for quick and convenient meal options.</li>
+    </ul>
+    
+    <h2>Contact Us</h2>
+    <p>Have a question or feedback? We'd love to hear from you!</p>
+    <form>
+      <label for="name">Name:</label><br>
+      <input type="text" id="name" name="name"><br>
+      <label for="email">Email:</label><br>
+      <input type="email" id="email" name="email"><br><br>
+      <input type="submit" value="Submit">
+    </form>
+    <p>Contact Information: info@deliciouseats.com | (123) 456-7890</p>
+  </div>
+  <footer>
+    &copy; 2024 Delicious Eats. All Rights Reserved.
+  </footer>
+</body>
+</html>
